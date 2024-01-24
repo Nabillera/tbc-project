@@ -1,0 +1,73 @@
+#navbar-container {
+	width: 100vw;
+	height: 69px;
+	align-items: center;
+	justify-content: center;
+	padding: 15px;
+	background-color: #1A1E1F;
+}
+
+#inner-elements-container {
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#tbc-logo {
+	width: 130px;
+	margin-left: 5px;
+}
+
+#menu-icon {
+	color: #F4F4F4;
+}
+
+#navbar-list{
+	display: none;
+}
+
+@media only screen and (min-width: 768px) {
+	#navbar-container{
+		height: 72px;
+	}
+
+	#tbc-logo{
+		height: 35px;
+		cursor: pointer;
+	}
+
+	#menu-icon {
+		display: none;
+	}
+
+	#inner-elements-container {
+		max-width: 995px;
+	}
+
+	#navbar-list{
+		display: flex;
+		list-style-type: none;
+		width: 485px;
+		justify-content: space-around;
+	}
+
+	.list-items{
+		font-size: 15px;
+		font-family: Arial, Helvetica, sans-serif;
+		cursor: pointer;
+		transition: color 0.4s;
+	}
+	.list-items:hover{
+		color: #00A3E0;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	#navbar-container {
+		height: 84px;
+	}
+	#tbc-logo{
+		width: 182px;
+		height: 40px;
+	}
+}

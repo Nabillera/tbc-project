@@ -1,0 +1,19 @@
+#hero-container {
+	width: 100vw;
+	justify-content: center;
+}
+
+#hero-image-container {
+	max-height: 217px;
+}
+
+#hero-image{
+	height: 217px;
+	object-fit: cover;
+}
+
+#header-text-container {
+	flex-direction: column;
+	font-weight: 700;
+	width: 280px;
+}

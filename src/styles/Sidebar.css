@@ -1,0 +1,22 @@
+a {
+	text-decoration: none;
+}
+
+#sidebar-container {
+	flex-direction: column;
+	position: absolute;
+	right: 0;
+	width: 200px;
+	height: 100vh;
+	padding: 10px;
+	background-color: #2B2B2B;
+}
+
+#sidebar-list {
+	list-style-type: none;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: end;
+}

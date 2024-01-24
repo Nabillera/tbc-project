@@ -1,0 +1,14 @@
+*{
+  box-sizing: border-box;
+  color: #F4F4F4;
+}
+body{
+  background-color: #161616;
+}
+div{
+  display: flex;
+}
+.App {
+  flex-direction: column;
+}
+

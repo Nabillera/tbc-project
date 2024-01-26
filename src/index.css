@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+	font-family: 'Header';
+	src: url(./fonts/bolder.ttf);
+}
+
+@font-face {
+  font-family: 'Regular';
+  src: url(./fonts/light.ttf);
+}
+
+@font-face {
+  font-family: 'Medium';
+  src: url(./fonts/medium.ttf);
+}
+
+@font-face {
+  font-family: 'Bold';
+  src: url(./fonts/bold.ttf);
+}

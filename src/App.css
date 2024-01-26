@@ -4,11 +4,13 @@
 }
 body{
   background-color: #161616;
+  width: 100vw;
 }
 div{
   display: flex;
 }
 .App {
+  width: 100vw;
   flex-direction: column;
 }
 

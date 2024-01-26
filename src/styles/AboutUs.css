@@ -1,0 +1,29 @@
+#about-us-container{
+    background-color: #2B2B2B;
+    justify-content: center;
+    padding: 20px;
+    line-height: 25.6px;
+    font-family: 'Regular';
+}
+
+#about-us-inner-container{
+    flex-direction: column;
+    max-width: 980px;
+}
+
+#learn-more-link{
+    color: #00AEF3;   
+    font-family: 'Bold';
+    margin: 23px 0 23px 0; 
+}
+
+@media only screen and (min-width: 1024px) {
+    #about-us-container{
+        font-size: 28px;
+        line-height: 44.8px;
+    }
+
+    #learn-more-link{
+        font-size: 20px;
+    }
+}

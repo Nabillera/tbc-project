@@ -1,0 +1,105 @@
+footer {
+	display: flex;
+	background-color: #1A1E1F;
+	width: 100%;
+	height: 270px;
+	justify-content: center;
+	align-items: center;
+}
+
+#footer-inner-container {
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	height: 100%;
+	max-width: 995px;
+	padding: 35px;
+	position: relative;
+}
+
+#footer-tbc-logo {
+	width: 104px;
+}
+
+#contact-us-link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 6px;
+	background-color: #00AEF3;
+	width: 109px;
+	height: 35px;
+	font-family: 'Regular';
+	font-size: 14px;
+	position: absolute;
+	bottom: 144px;
+	cursor: pointer;
+	transition: background-color 0.3s, color 0.5s;
+}
+#contact-us-link:hover {
+	background-color: #bebebe;
+	color: #000000;
+}
+
+#social-media-container {
+	width: 85px;
+	justify-content: space-between;
+	position: absolute;
+	bottom: 144px;
+	right: 35px;
+}
+
+.social-links {
+	width: 35px;
+	cursor: pointer;
+}
+
+#footer-text-container {
+	flex-direction: column;
+	font-size: 14px;
+	font-family: 'Regular';
+}
+
+.footer-text {
+	margin-top: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+	footer {
+		height: 228px;
+	}
+
+	#footer-inner-container {
+		padding-top: 55px;
+		justify-content: space-between;
+	}
+
+	#contact-us-link {
+		width: 162px;
+		height: 39px;
+		right: 30px;
+		bottom: 40px;
+		font-size: 16px;
+	}
+
+	#social-media-container {
+		width: 88px;
+		bottom: 124px;
+	}
+
+	.social-links {
+		width: 39px;
+	}
+
+	#footer-text-container {
+		flex-direction: column-reverse;
+	}
+
+}
+
+@media only screen and (min-width: 1024px) {
+	#footer-inner-container {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}

@@ -8,8 +8,9 @@
 }
 
 #course-items-container {
-	flex-direction: column;
-	align-items: center;
+	display: grid;
+	grid-template-columns: auto;
+	gap: 25px 43px;
 }
 
 #course-list-title {
@@ -17,20 +18,26 @@
 	font-family: 'Regular';
 	width: 100%;
 	max-width: 995px;
-	margin-top: 30px;
-	padding-left: 20px;
+	padding: 20px 0 20px 20px;
 }
 
+@media only screen and (min-width: 768px) {
+	#course-list-title{
+		padding-bottom: 35px;
+	}
 
+	#course-items-container {
+		grid-template-columns: auto auto;
+	}
+}
 
 @media only screen and (min-width: 1024px) {
 	#course-items-container {
-		flex-direction: row;
 		justify-content: space-between;
-		flex-wrap: wrap;
+		grid-template-columns: auto auto auto;
 	}
 
-	#course-list-title{
-		padding: 0;
+	#course-list-title {
+		padding: 30px 0 60px 0;
 	}
 }

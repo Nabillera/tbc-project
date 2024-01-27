@@ -30,6 +30,7 @@
 @media only screen and (min-width: 1024px) {
 	#hero-container{
 		height: 352px;
+		margin-top: 84px;
 	}
 
 	#header-text-container{

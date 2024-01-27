@@ -5,6 +5,7 @@
 body{
   background-color: #161616;
   width: 100vw;
+  overflow-x: hidden;
 }
 div{
   display: flex;

@@ -15,6 +15,11 @@
     color: #00AEF3;   
     font-family: 'Bold';
     margin: 23px 0 23px 0; 
+    cursor: pointer;
+    transition: color 0.3s;
+}
+#learn-more-link:hover{
+    color: #bebebe;
 }
 
 @media only screen and (min-width: 1024px) {

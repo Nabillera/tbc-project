@@ -65,6 +65,7 @@
 @media only screen and (min-width: 1024px) {
 	#navbar-container {
 		height: 84px;
+		position: fixed;
 	}
 	#tbc-logo{
 		width: 182px;

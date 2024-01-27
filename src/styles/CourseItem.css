@@ -5,7 +5,6 @@
     border-color: #555555;
     border-radius: 6px;
     width: 280px;
-    margin-top: 25px;
 }
 
 #course-image{
@@ -32,8 +31,12 @@
 #course-details{
     font-size: 14px;
     font-family: 'Medium';
-    color: #00AEEF;
+    color: rgb(0, 174, 239);
     cursor: pointer;
+    transition: color 0.3s;
+}
+#course-details:hover{
+    color: rgba(0, 174, 239, 0.7)
 }
 
 @media only screen and (min-width: 1024px) {

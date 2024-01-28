@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import '../styles/Navbar.css'
 import Logo from '../images/logo.svg'
 import { HiMenuAlt1 } from "react-icons/hi";

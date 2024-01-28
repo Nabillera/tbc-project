@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/tbc-project/static/css/main.f1e8c6cb.css",
+    "main.js": "/tbc-project/static/js/main.56acb206.js",
+    "static/media/bold.ttf": "/tbc-project/static/media/bold.b6842de64aba0f9afbf1.ttf",
+    "static/media/light.ttf": "/tbc-project/static/media/light.d5c71650ebd76c0a04fa.ttf",
+    "static/media/medium.ttf": "/tbc-project/static/media/medium.258878d544aee40aea75.ttf",
+    "static/media/bolder.ttf": "/tbc-project/static/media/bolder.fce6344035054c76ae34.ttf",
+    "static/media/logo.svg": "/tbc-project/static/media/logo.401e5432c0fd38fb4fd98622493157c7.svg",
+    "static/media/arrow.svg": "/tbc-project/static/media/arrow.168c2ffd4679e131cba9d1c493e67bf0.svg",
+    "index.html": "/tbc-project/index.html",
+    "static/media/arrow-down.svg": "/tbc-project/static/media/arrow-down.7803a9cc1c3eb1133286a4890be9110e.svg",
+    "main.f1e8c6cb.css.map": "/tbc-project/static/css/main.f1e8c6cb.css.map",
+    "main.56acb206.js.map": "/tbc-project/static/js/main.56acb206.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1e8c6cb.css",
+    "static/js/main.56acb206.js"
+  ]
+}

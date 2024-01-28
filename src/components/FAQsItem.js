@@ -1,16 +1,17 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Arrow from '../images/arrow-down.svg'
 import '../styles/FAQsItem.css'
 
-const FAQsItem = (props) => {
+const FAQsItem = ({question, answer, isOpen, toggle}) => {
+
   return (
     <div id='faqs-item-container'>
-      <div id='faqs-question-container'>
-        <p id='faqs-question'>{props.question}</p>
-        <img id='faqs-arrow' src={Arrow}/>
+      <div id='faqs-question-container' onClick={toggle} style={{paddingBottom: isOpen ? '20px' : '0'}}>
+        <p id='faqs-question'>{question}</p>
+        <img id='faqs-arrow' src={Arrow} style={{transform: isOpen? 'rotate(90deg)' : 'rotate(270deg)'}}/>
       </div>
         
-      <p id='faqs-answer'>{props.answer}</p>
+      <p id='faqs-answer' style={{ height: isOpen ? 'fit-content' : '0px' }}>{answer}</p>
         
     </div>
   )

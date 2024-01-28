@@ -32,6 +32,7 @@
     font-size: 14px;
     font-family: 'Medium';
     color: rgb(0, 174, 239);
+    margin-left: 10px;
     cursor: pointer;
     transition: color 0.3s;
 }
@@ -61,6 +62,5 @@
 
     #course-details{
         font-size: 16px;
-        margin-left: 10px;
     }
 }

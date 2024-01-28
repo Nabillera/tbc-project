@@ -9,7 +9,7 @@ const CourseItem = (props) => {
         <div id='course-description-container'>
           <span id='course-name'>{props.name}</span>
           <p id='course-registration-status'>რეგისტრაცია დასრულებულია</p>
-          <div style={{verticalAlign: 'bottom'}}>
+          <div style={{verticalAlign: 'bottom', marginTop: '8px'}}>
             <img src={Arrow}/>
             <span id='course-details'>კურსის დეტალები</span>
           </div>
